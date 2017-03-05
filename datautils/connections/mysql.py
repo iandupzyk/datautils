@@ -1,4 +1,5 @@
+from .conn import Connection
 import _mysql
 
-class MySQL(object) :
-    pass
+class MySQL(Connection) :
+    def 
